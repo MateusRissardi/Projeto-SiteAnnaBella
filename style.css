@@ -7,20 +7,37 @@ body{
 	width: 600px;
 }
 
-.divCentral{
-	margin-left: 300px;
-	margin-right: 300px;
+#divCentral{
+	margin-left: 25%;
+	margin-right: 25%;
 	width: 900px;
 }
 
-.divMenu{
-	background: #c38673;
-	width: 900px;
-	padding-bottom: 15px;
-	padding-top: 15px;
+#divMenu{
+	background: #c5c5b2;
+	width: 870px;
+	padding: 15px;
 }
 
-.fonteMenu{
+a{
 	font-family: "Monaco", Monospace;
-	color: #fee6cc;
+	color: #4b566b;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#divPágina{
+	padding: 10px;
+	background-color: #e8e8d9;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgPágina{
+	size: 15%;
+	padding: 10px;
+	background-color: #c5c5b2;
+}
+
+#rodape{
+	text-align: center;
 }
